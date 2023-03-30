@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Form from './components/Form';
+import LeftComponent from './components/LeftComponent';
+
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='left'> <LeftComponent /></div>
+      <div className="right">
+      <div className="text-1">Try it free 7 days then ₹180/mo. thereafter</div>
+      <Form />
+        <div className="text-2">By clicking the button you are agreeing to our <b>Terms and Services</b> </div>
+        </div>
     </div>
   );
 }
 
+ 
+
 export default App;
+

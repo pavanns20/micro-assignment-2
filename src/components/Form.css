@@ -1,0 +1,117 @@
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+select{
+    
+    margin-top: 1%;
+}
+
+.form-input {
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+padding: 5px;
+ gap: 5px;
+}
+
+
+.add-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.add-button:hover {
+  background-color: #3e8e41;
+}
+
+.selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ justify-content: center;
+}
+
+.selected-skill {
+  background-color: #23da06;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: -45px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+.selected-skill button {
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.selected-skill button:hover {
+  text-decoration: underline;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  text-decoration: underline;
+}
+.submit-button{
+    background-color: #5e4caf;
+    padding: 15px 15px;
+    width: 550px;
+    margin-bottom: 1rem;
+    color: rgb(131, 1, 1);
+    font-weight:bolder;
+    font-size: large;
+    
+}
+.submit-button.disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+
+
+
+
